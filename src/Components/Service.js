@@ -8,7 +8,6 @@ import i3 from'../img/image 10.png';
 import i4 from'../img/image 11.png';
 import i5 from'../img/image 13.png';
 import i6 from'../img/image 14.png';
-import i7 from'../img/i1.jpg';
 import {Card,CardBody} from 'reactstrap';
 
 export default function Service() {
@@ -21,7 +20,7 @@ export default function Service() {
             <br/>
             <br/>
                 <div className='col'>
-                   <img src={img1} /><br/>
+                   <img src={img1} alt='a'/><br/>
                    <h3 id='rd'>Our Product</h3>
                    <br/>
                    <p>Our product is made on the base of our
@@ -32,7 +31,7 @@ export default function Service() {
                     <button className='btn rd' >Read More</button> 
                 </div>
                 <div className='col'>
-                   <img src={img2} /><br/>
+                   <img src={img2} alt='b' /><br/>
                    <h3 id='rd'>Our Service</h3>
                    <br/>
                    <p>DSI’s shared service solutions focus on
@@ -43,7 +42,7 @@ export default function Service() {
                     <button className='btn rd' >Read More</button>
                 </div>
                 <div className='col'>
-                   <img src={img3} /><br/>
+                   <img src={img3}  alt='c'/><br/>
                    <h3 id='rd'>Our Technology</h3><br/>
                    <p>First JAVA, runs on more than 850
                       million personal computers worldwide,
@@ -141,8 +140,8 @@ export default function Service() {
                     Email : community@dwidasa.com</p>
                 </div>
                 <div className='col'>
-                <img src={i1} width={80}/><img src={i2} width={80}/><img src={i3} width={80}/><br/>
-                <img src={i4} width={80}/><img src={i5} width={80}/><img src={i6} width={80}/>
+                <img src={i1} width={80} alt='d'/><img src={i2} width={80} alt='e'/><img src={i3} width={80} alt='f'/><br/>
+                <img src={i4} width={80} alt='g'/><img src={i5} width={80} alt='h'/><img src={i6} width={80} alt='h'/>
                 </div>                       
              </div>            
         </div>
