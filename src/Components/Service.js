@@ -19,7 +19,7 @@ export default function Service() {
             <br/>            
             <br/>
             <br/>
-                <div className='col'>
+                <div className='col-12 col-md-4'>
                    <img src={img1} alt='a'/><br/>
                    <h3 id='rd'>Our Product</h3>
                    <br/>
@@ -30,7 +30,7 @@ export default function Service() {
                     <br/>
                     <button className='btn rd' >Read More</button> 
                 </div>
-                <div className='col'>
+                <div className='col-12 col-md-4'>
                    <img src={img2} alt='b' /><br/>
                    <h3 id='rd'>Our Service</h3>
                    <br/>
@@ -41,7 +41,7 @@ export default function Service() {
                     <br/>
                     <button className='btn rd' >Read More</button>
                 </div>
-                <div className='col'>
+                <div className='col-12 col-md-4'>
                    <img src={img3}  alt='c'/><br/>
                    <h3 id='rd'>Our Technology</h3><br/>
                    <p>First JAVA, runs on more than 850
@@ -55,7 +55,7 @@ export default function Service() {
              </div>
              <div className='info service'>
              <div className='row '>
-                <div className='col-3 '>
+                <div className='col-6 col-md-3 '>
                 <Card>
                         <CardBody>
                             <p id='rd'>System Analyst</p>
@@ -70,7 +70,7 @@ export default function Service() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className='col-3 '>
+                <div className='col-6 col-md-3 '>
                 <Card>
                         <CardBody >
                             <div id='smedia'>
@@ -91,7 +91,7 @@ export default function Service() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className='col-3 '>
+                <div className='col-6 col-md-3 '>
                 <Card>
                         <CardBody>
                             <p id='rd'>Programmer</p>
@@ -106,7 +106,7 @@ export default function Service() {
                         </CardBody>
                     </Card>
                 </div>
-                <div className='col-3 '>
+                <div className='col-6 col-md-3'>
                 <Card>
                         <CardBody>
                         <p id='rd'>Programmer</p>
@@ -125,21 +125,21 @@ export default function Service() {
              </div>
              <div className=' info service'>
              <div className='row'>
-                <div className='col'>
+                <div className='col-6 col-md-4'>
                     <br/>
                     <br/>
                     <h6>PT Dwidasa Samsara Indonesia</h6>
                     <p>Ruko Jalur Sutera 29A No. 53 <br/>
                        Alam Sutera Serpong, Tangerang 15323</p>        
                 </div>
-                <div className='col'>
+                <div className='col-6 col-md-4'>
                     <h4>Contact</h4>
                     <br/>
                     <p>Phone: +62.21.5314.1135<br/>
                     Fax : +62.21.5314.1135<br/>
                     Email : community@dwidasa.com</p>
                 </div>
-                <div className='col'>
+                <div className='col-12 col-md-4'>
                 <img src={i1} width={80} alt='d'/><img src={i2} width={80} alt='e'/><img src={i3} width={80} alt='f'/><br/>
                 <img src={i4} width={80} alt='g'/><img src={i5} width={80} alt='h'/><img src={i6} width={80} alt='h'/>
                 </div>                       
